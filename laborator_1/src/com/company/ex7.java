@@ -1,3 +1,4 @@
+/*Sa se afiseze al n-lea termen din seria Fibonacci, unde n este citit de la tastatura.*/
 package com.company;
 
 import java.util.Scanner;

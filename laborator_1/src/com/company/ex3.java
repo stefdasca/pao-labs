@@ -1,3 +1,4 @@
+/*Scrieți o metoda care sa calculeze factorialul unui numar n citit de la tastatura.*/
 package com.company;
 
 import java.util.Scanner;
