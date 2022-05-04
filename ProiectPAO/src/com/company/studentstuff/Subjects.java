@@ -1,4 +1,4 @@
-package com.company;
+package com.company.studentstuff;
 
 public class Subjects {
     private String nume;

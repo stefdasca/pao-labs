@@ -1,11 +1,17 @@
-package com.company;
+package com.company.halls;
 
-public class Classrooms extends Halls{
+import com.company.halls.Halls;
+
+public class Classrooms extends Halls {
     private int classnumber;
     private char letter;
 
     public Classrooms(int number, int width, int length, int classnumber, char letter) {
-        super();
+        this.setRoomnumber(number);
+        this.setWidth(width);
+        this.setLength(length);
+        this.classnumber = classnumber;
+        this.letter = letter;
     }
 
     public int getClassnumber() {

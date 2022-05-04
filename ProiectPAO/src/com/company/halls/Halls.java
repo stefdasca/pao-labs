@@ -1,4 +1,4 @@
-package com.company;
+package com.company.halls;
 
 public class Halls {
     private int roomnumber;

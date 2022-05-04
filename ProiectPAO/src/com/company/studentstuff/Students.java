@@ -1,5 +1,6 @@
-package com.company;
+package com.company.studentstuff;
 
+import java.sql.Array;
 import java.util.ArrayList;
 
 public class Students {
@@ -7,11 +8,11 @@ public class Students {
     private ArrayList<Double> grades;
     private ArrayList<String> hobbies;
 
-    public Students(String name, String surname, ArrayList<Double> grades, ArrayList<String> hobbies) {
+    public Students(String name, String surname) {
         this.name = name;
         this.surname = surname;
-        this.grades = grades;
-        this.hobbies = hobbies;
+        this.grades = new ArrayList<>();
+        this.hobbies = new ArrayList<>();
     }
 
     public String getName() {
@@ -36,6 +37,10 @@ public class Students {
 
     public void setGrades(ArrayList<Double> grades) {
         this.grades = grades;
+    }
+
+    public void addGrade(Double grade){
+        grades.add(grade);
     }
 
     public ArrayList<String> getHobbies() {

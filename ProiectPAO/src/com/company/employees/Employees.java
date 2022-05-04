@@ -1,4 +1,4 @@
-package com.company;
+package com.company.employees;
 
 public class Employees {
     private String name, surname;
@@ -30,7 +30,7 @@ public class Employees {
     }
 
     public void setSurname(String Surname) {
-        surname = surname;
+        surname = Surname;
     }
 
     public void setAge(int age) {
